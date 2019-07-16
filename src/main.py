@@ -314,7 +314,7 @@ class Myassistant():
                 self.t5.start()
 
         if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-            subprocess.Popen(["aplay", "{}/sample-audio-files/Fb.wav".format(ROOT_PATH)], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.Popen(["aplay", "{}/sample-audio-files/googlestart.wav".format(ROOT_PATH)], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             self.can_start_conversation = False
             if kodicontrol:
                 try:

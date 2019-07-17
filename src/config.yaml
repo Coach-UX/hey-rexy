@@ -118,7 +118,8 @@ Gpios:
     - 13
     - 24
   pushbutton_trigger:
-    - 22
+    # - 22
+    - 26
   servo:
     - 27
   stopbutton_music_AIY_pushbutton:

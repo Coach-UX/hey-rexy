@@ -238,9 +238,9 @@ Speechtotext:
 #Spotify credentials. Register for a spotify developer and get the credentials.
 Spotify:
   Spotify_Control: 'Enabled'
-  client_id: 'ENTER YOUR SPOTIFY CLIENT ID HERE'
-  client_secret: 'ENTER YOUR SPOTIFY CLIENT SECRET HERE'
-  username: 'ENTER YOUR SPOTIFY USERNAME HERE'
+  client_id: 'e13328b6dfb74eee8d02f608c6e8a263'
+  client_secret: '6989a353b38947969d19d32cf69100d3'
+  username: 'r11marcus@yahoo.com'
 
 #Enter your Tasmota Device details below
 Tasmota_devicelist:

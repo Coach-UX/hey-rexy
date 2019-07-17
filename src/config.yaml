@@ -15,14 +15,20 @@ Conversation:
       - 'Who are you'
     2:
       - 'Do you have a family'
+    3:
+      - 'Can I get these in a size 7'
+    4:
+      - 'What is the best selling sneaker'
   answer:
     1:
-      - 'I am not the one you expect to be'
-      - 'Who do you think I am'
-      - 'What bothers you'
+      - 'My name is Rexy the Coach dinosaur. Who are you?'
+   #  - 'Who do you think I am'
     2:
-      - 'Nope i am forever alone'
-      - 'The whole world is my family'
+      - 'Of course. Uni, Sharky and Stuart are my family'
+    3:
+      - 'Ok, Travis is bringing them out for you now. Let me know if you need a different size'
+    4:
+      - 'Our best selling sneaker is the C101 Low Top. They are 30 percent off today too'
 
 #Send sms with clickatell
 Clickatell:

@@ -232,8 +232,8 @@ Raspberrypi_GPIO_Control:
 #Speech to text conversion
 Speechtotext:
   Google_Cloud_Speech:
-    Cloud_Speech_Control: 'Disabled'
-    Google_Cloud_Speech_Credentials_Path: "ENTER THE PATH TO YOUR CLOUD SPEECH CREDENTIALS FILE HERE"
+    Cloud_Speech_Control: 'Enabled'
+    Google_Cloud_Speech_Credentials_Path: "/home/pi/hey-rexy-c04646c9e00f.json"
 
 #Spotify credentials. Register for a spotify developer and get the credentials.
 Spotify:

@@ -349,7 +349,7 @@ class Myassistant():
                     vlcplayer.set_vlc_volume(15)
 
         if (event.type == EventType.ON_CONVERSATION_TURN_TIMEOUT or event.type == EventType.ON_NO_RESPONSE):
-            subprocess.Popen(["aplay", "{}/sample-audio-files/dino-1.wav".format(ROOT_PATH)], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            # subprocess.Popen(["aplay", "{}/sample-audio-files/dino-1.wav".format(ROOT_PATH)], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             self.can_start_conversation = True
             if GPIOcontrol:
                 assistantindicator('off')
